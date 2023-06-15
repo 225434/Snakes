@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>贪吃蛇游戏的设计与实现</title>
+    <link rel="stylesheet" href="snakes.css">
+</head>
+<body>
+<div id="container">
+    <h3>基于HTML5的贪吃蛇小游戏</h3>
+    <hr>
+    <div id="status">
+        <div class="box">
+            历史最高分：<span id="bestScore">0</span>
+        </div>
+        <div class="box">
+            当前分数：<span id="currentScore">0</span>
+        </div>
+    </div>
+    <canvas id="myCanvas" width="400" height="400" style="border: 1px solid"></canvas>
+    <div>
+        <button onclick="restartGame()">
+            重新开始
+        </button>
+    </div>
+</div>
+
+<script src="snakes.js"></script>
+</body>
+</html>
